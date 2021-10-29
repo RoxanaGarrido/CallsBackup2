@@ -81,14 +81,35 @@ class MainActivity : AppCompatActivity() {
             }
 
             val simpleDateFormat = SimpleDateFormat("dd/MM/yyyy HH:mm:ss")
-            val simpleTimeFormat = SimpleDateFormat("HH:mm:ss")
+
 
             var info = "\n\nTeléfono: "+rs.getString(1)
             info+= "\nTipo: "+type
-            info+="\nDuración: "+simpleTimeFormat.format(rs.getString(3).toLong())
+            info+="\nDuración: "+formatSegons(rs.getString(3).toLong())
             info+="\nFecha: "+simpleDateFormat.format(rs.getString(4).toLong())
             binding.editTextTextMultiLine.append(info)
 
         }
+    }
+
+    private fun formatSegons(TotalSegundos:Long):String{
+        var restant:Long
+        var restant1:Long
+        var restant2:Long
+        var horas:Long
+        var minutos:Long
+        var segundos:Long
+        var format:String=""
+        restant = TotalSegundos%(3600*24);
+        horas = restant / 3600;
+        restant1 = TotalSegundos % 3600;
+
+        minutos = restant1 /60;
+        restant2 = TotalSegundos % 60;
+
+        segundos = restant2;
+
+        format = "$horas:$minutos:$segundos"
+        return format
     }
 }
