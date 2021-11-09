@@ -11,14 +11,14 @@
 
     <EditText
         android:id="@+id/editTextTextMultiLine"
-        android:layout_width="325dp"
-        android:layout_height="577dp"
-        android:layout_marginStart="44dp"
-        android:layout_marginTop="72dp"
+        android:layout_width="253dp"
+        android:layout_height="339dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="52dp"
         android:ems="10"
         android:gravity="start|top"
         android:inputType="textMultiLine"
-        android:lines="20"
+        android:lines="12"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

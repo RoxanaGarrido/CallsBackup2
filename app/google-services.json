@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "461756862667",
+    "project_id": "calllogs-f4e86",
+    "storage_bucket": "calllogs-f4e86.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461756862667:android:659c558cb4e18a4a990b4e",
+        "android_client_info": {
+          "package_name": "es.recitecnic.rgarrido.callsbackup2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "461756862667-f12tte78a8qnautj4k8emcm0nlvv7mrg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHT2DSZXti4n07xUNgoO3SORRXznUdx0E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "461756862667-f12tte78a8qnautj4k8emcm0nlvv7mrg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
