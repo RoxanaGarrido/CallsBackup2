@@ -87,7 +87,7 @@ class MainActivity : AppCompatActivity() {
                 6 -> type = "Número bloqueado"
             }
 
-            val simpleDateFormat = SimpleDateFormat("dd/MM/yyyy HH:mm:ss")
+            val simpleDateFormat = SimpleDateFormat("HH:mm:ss")
 
             var info = "\n\nTeléfono: "+rs.getString(1)
             info+= "\nTipo: "+type
